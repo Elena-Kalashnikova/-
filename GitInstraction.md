@@ -82,3 +82,5 @@ git merge --abort
 ```
 git reset
 ```
+  ## 16 Удаление веток
+
