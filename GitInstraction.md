@@ -87,4 +87,7 @@ git reset
   ```
   git branch --delete <имя ветки>
   ```
+  При удалении ветки с помощью команды ***git branch --delete <имя ветки>***, может возникнуть ошибка:
+  ***error: The branch <имя ветки> is not fully merged. If you are sure you want to delete it, run 'git branch -D <имя ветки>'***
+  Такая ошибка возникает, если удаляем неслитую ветку или в ветке присутвуют незапушенные коммиты.
 
